@@ -99,4 +99,3 @@ Feel free to customize and expand this README as needed for your project. Enjoy 
 
 ---
 
-**Note:** Remember that this is just a template for your project's README file. You can add more specific details about your project, its features, and any additional information users might need.
