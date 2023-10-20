@@ -15,6 +15,7 @@ const AdminReports = () => {
       dataIndex: "examName",
       render: (text, record) => <>{record.exam.name}</>,
     },
+   
     {
       title: "User Name",
       dataIndex: "userName",
@@ -53,7 +54,8 @@ const AdminReports = () => {
       dispatch(showLoading());
       const response = await getAllReports();
       if (response.success) {
-        setReportsData(response.data);
+        const sortedData = response.data.sort((a, b) => b.result.correctAnswers.length - a.result.correctAnswers.length);
+        setReportsData(sortedData);
         console.log(reportsData);
       } else {
         message.error(response.error);
