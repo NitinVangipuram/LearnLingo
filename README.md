@@ -56,16 +56,16 @@ To get started with the Learnlingo project, follow these steps:
 
  - Once you have initiated the exam, you can access the instructions. After reviewing the instructions, you can proceed by clicking on the "Start Exam" button.
 
-   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/a4050de3600d12fa0f4ec6caeb2dea71ee5c73d7/Images/Exercise%20Instructions.png)
+   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/8dcb80abb50aaf3aefea0130dc17acd55f91135f/Images/Exercise%20Instructions.png)
 
  - After clicking the "Start Exam" button, you will be presented with the question and answer options. You can select your desired option and then click "Next" to 
    proceed to the next question. Additionally, there is a timer located on the right side of the screen to keep track of the time remaining for each question.
 
-   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/a4050de3600d12fa0f4ec6caeb2dea71ee5c73d7/Images/Exercise%20View.png)
+   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/8dcb80abb50aaf3aefea0130dc17acd55f91135f/Images/Exercise%20View.png)
 
  - After submitting the exam, the results will be displayed.
 
-   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/a4050de3600d12fa0f4ec6caeb2dea71ee5c73d7/Images/Result.png).
+   ![Preview](https://github.com/NitinVangipuram/LearnLingo/blob/8dcb80abb50aaf3aefea0130dc17acd55f91135f/Images/Result.png)
 
  - You can view your Exam Reports by clicking reports menu
 
