@@ -20,7 +20,7 @@ To get started with the Learnlingo project, follow these steps:
    cd server
    npm install
    node index.js
-4. **Access the Application**: Open your web browser and visit http://localhost:3000 to view the application in development mode.
+4. **Access the Application**: Open your web browser and visit http://localhost:3000/login to view the application in development mode.
 
 ## Admin 
 
