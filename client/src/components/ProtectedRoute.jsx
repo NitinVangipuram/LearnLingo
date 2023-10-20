@@ -64,15 +64,15 @@ const ProtectedRoute = ({ children }) => {
     {
       title: "Reports",
       paths: ["/admin/reports"],
-      icon: <span class="material-symbols-outlined">person</span>,
+      icon: <span class="material-symbols-outlined">Leaderboard</span>,
       onClick: () => navigate("/admin/reports"),
     },
-    {
-      title: "Profile",
-      paths: ["/profile"],
-      icon: <span class="material-symbols-outlined">person</span>,
-      onClick: () => navigate("/profile"),
-    },
+    // {
+    //   title: "Profile",
+    //   paths: ["/profile"],
+    //   icon: <span class="material-symbols-outlined">person</span>,
+    //   onClick: () => navigate("/profile"),
+    // },
     {
       title: "Logout",
       path: ["logout"],
