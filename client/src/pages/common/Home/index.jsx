@@ -33,9 +33,9 @@ const Home = () => {
   return (
     <div>
       <PageTitle  className="user-intro" title={`Hi ${user?.name},Welcome to LearnLingo `} />
-      <div className="row">
+      <div className="cardes">
         {exam.map((exams) => (
-          <div  span={5}  className = "items" key={exams._id}>
+          <div  span={5}  className = "carde" key={exams._id}>
             <div className="card card-lg flex flex-col gap-1">
               <h1 className="text-2xl quiz-heading">
                 <b>{exams?.name}</b>

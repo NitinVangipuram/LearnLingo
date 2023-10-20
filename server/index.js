@@ -3,7 +3,7 @@ const app = express();
 require("dotenv").config();
 const cors = require("cors");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://dharhacks:KfYYaWCNDC7ZCqaF@cluster0.kwhiyso.mongodb.net/quizDB");
+mongoose.connect("mongodb+srv://dharhacks:KfYYaWCNDC7ZCqaF@cluster0.kwhiyso.mongodb.net/LingoDB");
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Error in connecting database"));
 db.once("open", () => console.log("Connected to database"));

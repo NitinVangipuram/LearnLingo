@@ -1,14 +1,4 @@
 
-:root {
-    --primary: #0F3460;
-    --secondary: #ff5722;
-    --success: #6fbf71;
-    --info: #00bcd4;
-    --warning: #e47943;
-    --danger: #f44336;
-    --light: #f1f1f1;
-    --dark: #212121;
-  }
 .layout {
     padding: 0;
     width: 100vw;
@@ -138,18 +128,26 @@
     width: 200px;
    text-align: center;
   }
-.items{
-  justify-content: center;
-}
-  .row {
-    display: grid;
-    margin-left: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
-  margin-top: 5px;
-  height: 100vh;
-  margin-bottom: 50px;
+
+  .cardes {
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
   }
+  .carde {
+    margin: 15px; 
+    width: calc((100% / 3) - 30px);
+    transition: all 0.2s ease-in-out;
+  
+    @media screen and (max-width: 991px) {
+      width: calc((100% / 2) - 30px);
+    }
+  
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+    
   .text-md , .quiz-heading{
     font-size: 15px;
     font-family: Verdana;
